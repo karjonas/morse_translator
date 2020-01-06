@@ -2,6 +2,8 @@
 
 #include <QString>
 
+/* These methods will convert text between english and morse while skipping
+ * non-translatable characters */
 namespace morse {
 
 QString english_to_morse(const QString &text);
